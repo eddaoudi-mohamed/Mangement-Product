@@ -50,8 +50,14 @@
 
     <div class="flex min-h-full flex-col h-screen justify-center bg-white dark:bg-[#111827] px-6 py-12 lg:px-8">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-          <img class="mx-auto h-10 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company">
-          <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-white ">Sign in to your account</h2>
+          <div class=" flex gap-1 mb-3 w-fit mx-auto">
+
+            <img src="http://localhost/images/logo.png" class=" me-3 h-10 w-10 rounded-full" alt="Flowbite Logo" />
+         </div>
+          <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-white ">Sign in to your account 
+            <span class="self-center text-xl font-semibold whitespace-nowrap text-[#956B7E]">WebSphere</span>
+
+          </h2>
         </div>
       
         <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
